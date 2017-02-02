@@ -9,11 +9,26 @@
     <title>Cameron Pittman: Portfolio</title>
 
     <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
 
     <link href="css/print.css" rel="stylesheet" media="print">
 
     <style>
+      /* latin */
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+        }
+       @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+        } 
       html {
         font-size: 100%;
         overflow-y: scroll;
@@ -46,7 +61,8 @@
       footer {padding: 0 0.5em;border-top: 1px solid #ccc;}
       footer span { float: right; font-style: italic; }
       @media only screen and (max-width: 480px) {
-      header p { padding-left: 4.5em;}}
+        header p { padding-left: 4.5em;}}
+      
     </style>
 
     <script>
@@ -57,8 +73,8 @@
       ga('create', 'UA-XXXX-Y');
       ga('send', 'pageview');
     </script>
-    <script src="http://www.google-analytics.com/analytics.js" asinc></script>
-    <script async src="js/perfmatters.js" asinc></script>
+    <script async src="http://www.google-analytics.com/analytics.js"></script>
+    <script async src="js/perfmatters.js"></script>
   </head>
 
   <body>
